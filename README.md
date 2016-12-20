@@ -1,8 +1,8 @@
 # GoLang Yahoo Finance API (goyhfin)
-Simple API for fetching historical (15 minute delayed) financial (stocks, currencies, etc.) quote data. This can also be extended to fetch more technical indicators or fundamentals from the same endpoint.
+Simple API for fetching historical financial (stocks, currencies, etc.) data from Yahoo Finance. This can also be extended to fetch more technical indicators or fundamentals from the same endpoint.
 ###Setup
 `go get github.com/svarlamov/goyhfin`
-100% GoLang, so functions on any GoLang-compatible operating system
+<br>This library is written in 100% GoLang, so it will work on any GoLang-compatible operating system
 ###Usage Example
 main.go
 ```go
@@ -26,7 +26,7 @@ func main() {
 }
 ```
 Example Running the Above main.go:
-```bash
+```
 svarlamov$ go run main.go
 The day's high was 111.98999786376953 on the 21 day of November of 2016
 The day's high was 112.41999816894531 on the 22 day of November of 2016
